@@ -15,7 +15,6 @@ clean:
 reload: mkdir_build
 	cd cmake-build-debug;cmake ..
 
-
 fast_build:
 	cd cmake-build-debug;make
 
@@ -40,4 +39,4 @@ osx_dep:
 	brew install ncurses
 
 linux_dep:
-	sudo apt install libncurses5-dev
+	sudo apt-get install libncurses5-dev
